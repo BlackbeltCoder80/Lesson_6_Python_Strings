@@ -18,3 +18,5 @@ if len(user_name) <= 2:
 else:
     print(f"Thank you {user_name} How are you today?")
 
+    # Me looking at the code wondering why cant they all be this simple.
+
