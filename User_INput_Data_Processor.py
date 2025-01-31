@@ -12,6 +12,9 @@
 
 #The goal of this note is to ensure that all code in your Python file runs smoothly and that is has been tested.
 user_name = input("Please Enter your First and Last Name:")
-if user_name is len([1,2]):
-    print("Your Name must have at least two or more characters")
-elif print(f"Thank you {user_name}. How are you today?"):
+
+if len(user_name) <= 2:
+    print("Error: Your Name must have at least two or more characters")
+else:
+    print(f"Thank you {user_name} How are you today?")
+
